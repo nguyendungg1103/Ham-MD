@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+  let arr =  [ 'Polaris', 'Aldebaran', 'Deneb', 'Vega',' Altair', 'Dubhe', 'Regulus']
+  let arr2 = ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major' , 'Leo']
+  function check(name) {
+      let i = 0;
+      if(arr.indexOf(name)>=0){
+          i = arr.indexOf(name)
+          alert(name+"thuộc chòm sao"+arr2[i])
+      }else{
+          alert(name+"không có trong chòm sao")
+      }
+  }
+  let dem = prompt("nhap ten chom sao");
+  check(dem)
+</script>
+
+</body>
+</html>
